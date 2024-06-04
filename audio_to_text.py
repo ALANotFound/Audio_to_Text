@@ -14,13 +14,11 @@ from Ifasr_new import start
 """
 
 # 1.密钥
-appid = "8dfb6896"
-secret_key = "be41b2dadc7cfa1a8732caacf2173e26"
+appid = ""
+secret_key = ""
 
 # 2.目录
-# audioFile_root_dir_path = 'path/to/your/dir' 
-audioFile_root_dir_path = '/Users/mac/Desktop/讯飞录音1号机' 
-
+audioFile_root_dir_path = 'path/to/your/dir'  
 # 例如: audioFile_root_dir_path = '/mntcephfs/lab_data/youjiajun/Tdata_降噪/test' 
 
 def find_wav_files(root_dir):
